@@ -92,8 +92,10 @@ public class GardenActivity extends AppCompatActivity {
         if (lesson1Highest == false) {
             switch (newGarden.lessonProgress[0][0]) {
                 case 1:
-                case 2:
                     Plant1.setImageResource(R.drawable.lessonsprout);
+                    break;
+                case 2:
+                    Plant1.setImageResource(R.drawable.plantblossom);
                     break;
                 case 3:
                     Plant1.setImageResource(R.drawable.lesson1flower);
@@ -101,7 +103,7 @@ public class GardenActivity extends AppCompatActivity {
                     saveLesson1Highest();
                     break;
                 default:
-                    Plant1.setImageResource(R.drawable.lessonsprout);
+                    Plant1.setImageResource(R.drawable.lessonpot);
             }
         } else {
             Plant1.setImageResource(R.drawable.lesson1flower);
@@ -112,8 +114,10 @@ public class GardenActivity extends AppCompatActivity {
         if (lesson2Highest == false) {
             switch (newGarden.lessonProgress[1][0]) {
                 case 1:
-                case 2:
                     Plant2.setImageResource(R.drawable.lessonsprout);
+                    break;
+                case 2:
+                    Plant2.setImageResource(R.drawable.plantblossom);
                     break;
                 case 3:
                     Plant2.setImageResource(R.drawable.lesson2flower);
@@ -121,7 +125,7 @@ public class GardenActivity extends AppCompatActivity {
                     saveLesson2Highest();
                     break;
                 default:
-                    Plant2.setImageResource(R.drawable.lessonsprout);
+                    Plant2.setImageResource(R.drawable.lessonpot);
             }
         } else {
             Plant2.setImageResource(R.drawable.lesson2flower);
@@ -132,8 +136,10 @@ public class GardenActivity extends AppCompatActivity {
         if (lesson3Highest == false) {
             switch (newGarden.lessonProgress[2][0]) {
                 case 1:
-                case 2:
                     Plant3.setImageResource(R.drawable.lessonsprout);
+                    break;
+                case 2:
+                    Plant3.setImageResource(R.drawable.plantblossom);
                     break;
                 case 3:
                     Plant3.setImageResource(R.drawable.lesson3flower);
@@ -141,7 +147,7 @@ public class GardenActivity extends AppCompatActivity {
                     saveLesson3Highest();
                     break;
                 default:
-                    Plant3.setImageResource(R.drawable.lessonsprout);
+                    Plant3.setImageResource(R.drawable.lessonpot);
             }
         } else {
             Plant3.setImageResource(R.drawable.lesson3flower);
