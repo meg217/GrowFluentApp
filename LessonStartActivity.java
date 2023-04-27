@@ -66,10 +66,43 @@ public class LessonStartActivity extends AppCompatActivity {
         }
 
         if(lessonNum == 2){
-            textView.setText("hi");
+            textView.setText("Hello! Welcome to lesson 2. In this lesson we’ll be learning words related to our households so we can start talking about our spanish speaking family! The words we will be learning are, madre, padre, hermana, hermano, amiga. \n" +
+                    "\n" +
+                    "Madre means Mother\n" +
+                    "“Hola Madre”   “Hi! Have a good day at school!”\n" +
+                    "\n" +
+                    "Papa means Father\n" +
+                    "“Adios Padre”   “Goodbye son”\n" +
+                    "\n" +
+                    "Hermana means Sister\n" +
+                    "“This is my Hermana”  “Hola! Its nice to meet you”\n" +
+                    "\n" +
+                    "Hermano means Brother\n" +
+                    "“I want a Hermano” “Too bad its a girl!”\n" +
+                    "\n" +
+                    "Amiga means Friend\n" +
+                    "“You are my best amiga!” “You’re my best friend too!\n" +
+                    "After you’re ready go ahead and press the “start quiz” button and you can quiz yourself over your knowledge! \n");
         }
         if(lessonNum == 3){
-            textView.setText("hi");
+            textView.setText("Hello! Welcome to lesson 3. In this lesson we’ll be learning words related to the names of our body parts. The words we will be learning are boca, mano, estomago, cabeza, and nariz.\n" +
+                    "\n" +
+                    "Boca means Mouth\n" +
+                    "“I eat with my boca”   “I do too!”\n" +
+                    "\n" +
+                    "Mano means Hand\n" +
+                    "“My mano hurts from banging it on the table”   “Ouch are you okay?”\n" +
+                    "\n" +
+                    "Nariz means Nose\n" +
+                    "“I want to get my Nariz pierced” “I think that would look good on you”\n" +
+                    "\n" +
+                    "Estomago means Stomach\n" +
+                    "“My estomago hurts” “I think you’re lactose intolerant”\n" +
+                    "\n" +
+                    "Cabeza means Head\n" +
+                    "“My cabeza is cold” “Maybe you should wear a hat today”\n" +
+                    "\n" +
+                    "After you’re ready go ahead and press the “start quiz” button and you can quiz yourself over your knowledge! \n");
         }
 
 
