@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/space" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Garden_button"
+            android:layout_width="104dp"
+            android:layout_height="58dp"
+            android:text="@string/Garden_button" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Lessons_button"
+        android:layout_width="104dp"
+        android:layout_height="58dp"
+        android:text="@string/Lessons_button" />
+
+    <Button
+        android:id="@+id/Community_button"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        android:text="@string/Community_button" />
+
+    <Button
+        android:id="@+id/Settings_button"
+        android:layout_width="120dp"
+        android:layout_height="58dp"
+        android:text="@string/Settings_button" />
+
+</LinearLayout>
+
